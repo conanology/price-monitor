@@ -156,7 +156,7 @@ def main():
     # Display statistics
     stats = analyze_prices(df)
     if stats:
-        print(f"\n[DATA] Price Statistics:")
+        print("\n[DATA] Price Statistics:")
         print(f"   Count: {stats['count']}")
         print(f"   Mean: ${stats['mean']:.2f}")
         print(f"   Median: ${stats['median']:.2f}")
@@ -165,7 +165,7 @@ def main():
 
     # Display sample
     if len(df) > 0:
-        print(f"\n[DATA] Sample data:")
+        print("\n[DATA] Sample data:")
         print(df.head())
 
 
